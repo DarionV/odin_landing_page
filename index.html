@@ -8,41 +8,59 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-    <div class="header">
-        <h1>Darion's roastery</h1>
-        <ul>
-            <li>Buy</li>
-            <li>Subscribe</li>
-            <li>About us</li>
-        </ul>
-    </div>
 
-    <div class="title">
-        <h1>Always freshly roasted coffee beans.</h1>
-        <p>At Darion's roastery, we choose only the best beans from around
-            the world. Roasted with love and care for you to enjoy.
-        </p>
-        <img src ="" width="400px" height="200px" alt="Image of coffe beans">
-    </div>
+        <div class="header">
+            <h1>Darion's roastery</h1>
+            <ul>
+                <li><a href="">Buy</a></li>
+                <li><a href="">Subscribe</a></li>
+                <li><a href="">About us</a></li>
+            </ul>
+        </div>
+            
+        <div class="title">
+            <div class="container">
+                <h1>Always freshly roasted coffee beans.</h1>
+                <p>At Darion's roastery, we choose only the best beans from around
+                    the world. Roasted with love and care, for you to enjoy.
+                </p>
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+            <img src="/images/beans.jpeg"  height="200px" alt="Image of coffe beans">
+        </div>
+
 
     <div class="cards">
         <h1>Our suppliers</h1>
-        <div class="container">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-image"><img src="/images/old_man.jpeg"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, natus?</p>
+            </div>
+            <div class="card">
+                <div class="card-image"> <img src="/images/girl.jpeg"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, natus?</p>
+            </div>
+            <div class="card">
+                <div class="card-image"><img src="/images/julio.jpeg"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, natus?</p>
+            </div>
+            <div class="card">
+                <div class="card-image"><img src="/images/cuban.jpeg"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, natus?</p>
+            </div>
         </div>
     </div>
 
     <div class="inspiration">
         <div class="quote"> 
-            <h2>Once you try freshly roasted, and newly grinded coffee you simply
-                cannot return to having regular coffee anoymore.
+            <h2>Once you try Darion's perfectly roasted columbian coffee you
+                simply can't go back.
             </h2>
             <p>- Javier Perez, our Nr1 Customer</p>
         </div>
@@ -50,9 +68,11 @@
 
     <div class="action">
         <div class="container">
-            <h4>Don't let your taste buds wait. Buy fresh beans today!</h4>
-            <p>Buy a bag of beans, or subscribe to our hand picked mix.</p>
-            <button>Subscribe</button>
+            <div class="left">
+                <h4>Don't let your taste buds wait. Buy fresh beans today!</h4>
+                <p>Buy a bag of beans, or subscribe to our hand picked mix.</p>
+             </div>
+            <button class="subscribe-button inverse">Subscribe</button>
         </div>
     </div>
 
