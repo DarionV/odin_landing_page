@@ -136,6 +136,11 @@ a:hover {
     flex-shrink: 0;
 }
 
+.subscribe-button:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .inverse {
     border: solid 2px aliceblue;
 }
