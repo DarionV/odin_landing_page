@@ -36,6 +36,10 @@ a {
     color: black
 }
 
+a:hover {
+    color: white;
+}
+
 .title,
 .header,
 .footer {
@@ -46,6 +50,10 @@ a {
     display: flex;
     padding-top: 64px;
     padding-bottom: 64px;
+}
+
+.title > .container {
+    margin-right: 20px;
 }
 
 .title h1 {
@@ -65,29 +73,30 @@ a {
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 64px;
+    padding-top: 20px;
+
 }
 
 .card {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    height: 200px;
-    width: 150px;
-    justify-content: center;
+    height: 250px;
+    width: 200px;
+    justify-content:flex-start;
     align-items: center;
 }
 
 .card-image {
     border-radius: 12px;
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     flex-shrink: 0;
     overflow:hidden
 }
 .card-image>img {
-    width: 110px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     
 }
 
